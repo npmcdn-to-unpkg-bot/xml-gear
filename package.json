@@ -35,6 +35,9 @@
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-router": "^2.0.0",
-    "reflux": "^0.3.0"
+    "reflux": "^0.3.0",
+    "xml": "^1.0.1",
+    "xml-parser": "^1.2.1",
+    "xmlchecker": "^0.1.0"
   }
 }
