@@ -89,33 +89,40 @@ let movie=require("./movie.js");
 
 let modal=require("./modal.jsx");
 
-
 let Queryer=React.createClass({
 	resultDialog: modal.createModalDialog({
+
 		renderContent: function(props,state){
 			if(!state.params){
 				return (<div/>)
-			}
-			return(
-				<div>
-					<div className="movie_info_content">
-						<div className="name">{state.params.name}</div>
-						<div className="poster"><img src={state.params.poster}></img></div>
-						<div className="director">{state.params.director}</div>
-						<div className="actors">
-							{state.params.actors.map(function(item,i){
-								return(<div className="actor" key={i}>{item}</div>)
-							})}
-						</div>
-						<div className="type">{state.params.type}</div>
-						<div className="date">{state.params.date}</div>
-						<div className="length">{state.params.length}</div>
-						<div className="language">{state.params.language}</div>
-						<div className="rate">{state.params.rate}</div>
-						<div className="brief">{state.params.brief}</div>
+			}else{
+				return (
+					<div>
+					{state.params.map(function(item,i){
+						return(
+							<div className="movie_container" key={i}>
+								<div className="movie_info_content">
+									<div className="name">{item.name}</div>
+									<div className="poster"><img src={item.poster}></img></div>
+									<div className="director">{item.director}</div>
+									<div className="actors">
+										{item.actors.map(function(item,i){
+											return(<div className="actor" key={i}>{item}</div>)
+										})}
+									</div>
+									<div className="type">{item.type}</div>
+									<div className="date">{item.date}</div>
+									<div className="length">{item.length}</div>
+									<div className="language">{item.language}</div>
+									<div className="rate">{item.rate}</div>
+									<div className="brief">{item.brief}</div>
+								</div>
+							</div>
+						)
+					})}
 					</div>
-				</div>
-			);
+				)
+			}
 		}
 	}),
 
@@ -146,13 +153,18 @@ let Queryer=React.createClass({
 	lauchQuery: function(){
 		let q=this.state.queries;
 		let qo={};
+
+		let haveQuery=false;
 		for(let i=0;i<q.length;i++){
 			if((q[i].key!="")&&(q[i].val!="")){
+				haveQuery=true;
 				qo[q[i].key]=q[i].val;
 			}
 		}
 
-		console.log(re);
+		if(!haveQuery){qo=undefined}
+
+		let re=movie.queryMovie(qo);
 
 		if(re){
 			this.resultDialog.modal(re)

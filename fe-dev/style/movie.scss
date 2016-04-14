@@ -8,8 +8,11 @@
 body{
 	margin: 0;
 	padding: 0;
+}
 
-	background-color: #222;
+.movie_container{
+	position: relative;
+	margin-bottom: 20px;
 }
 
 .movie_info_content{
