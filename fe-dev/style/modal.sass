@@ -1,0 +1,58 @@
+.modal
+	position: fixed
+	top: 0
+	right: 0
+	bottom: 0
+	left: 0
+
+	background-color: rgba(0,0,0,0.5)
+
+	display: none
+
+	z-index: 9999
+
+	overflow-x: hidden
+	overflow-y: auto
+
+	padding-bottom: 60px
+
+.modal_active
+	display: block
+
+.modal_content
+	position: relative
+
+	width: 1200px
+	min-height: 200px
+
+	background-color: #fff
+
+	margin: auto
+	margin-top: 60px
+
+.modal_shut_container
+	width: 30px
+	height: 40px
+
+	line-height: 40px
+
+	text-align: center
+
+	color: #ccc
+
+	font-size: 20px
+
+	background-color: #666
+
+	position: absolute
+
+	right: 15px
+
+	cursor: pointer
+
+	z-index: 10001
+
+	&:hover
+		color: #eee
+
+		background-color: #333

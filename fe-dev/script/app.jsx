@@ -1,3 +1,4 @@
+/*
 var React=require('react');
 
 var Reflux=require('reflux');
@@ -75,3 +76,108 @@ render((
 	<Route path="/" component={App} />
 </Router>
 ), document.getElementById("page"));
+*/
+
+let React=require("react");
+
+let render=require("react-dom").render;
+
+let parser=require('xml-parser');
+let xmlChecker=require('xmlchecker');
+
+let movie=require("./movie.js");
+
+let modal=require("./modal.jsx");
+
+$.get("/static/movie.xml",function(data){
+})
+.done(function(data){
+	let str;
+	//ie
+	if (window.ActiveXObject){
+		str = xmlData.xml;
+	}
+	//Mozilla, Firefox, Opera, etc.
+	else{
+		str = (new XMLSerializer()).serializeToString(data);
+	}
+
+	xmlChecker.check(str);
+
+	let obj = parser(str);
+
+	let m_arr=obj.root.children;
+	let arr=[];
+
+	//console.log(arr);
+
+	for(let i=0;i<m_arr.length;i++){
+		let m=m_arr[i];
+		arr.push({
+			id: m.children[0].content,
+			name: m.children[1].content,
+			poster: m.children[2].content,
+			director: m.children[3].content,
+			actors: (function(){
+				let a=[];
+				for(let i=0;i<m.children[4].children.length;i++){
+					a.push(m.children[4].children[i].children[0].content);
+				}
+				return a;
+			})(),
+			type: m.children[5].content,
+			date: m.children[6].content,
+			length: (function(){
+				return Number(m.children[7].content)
+			})(),
+			language: m.children[8].content,
+			rate: (function(){
+				return Number(m.children[9].content)
+			})(),
+			brief: m.children[10].content,
+		})
+	}
+
+	movie.createMultipleMovies(arr);
+
+	let re=(movie.queryOneMovie({
+		id: "m1"
+	}))
+
+	let d=modal.createModalDialog({
+		renderContent: function(props,state){
+			if(!state.params){
+				return (<div/>)
+			}
+			return(
+				<div>
+					<div className="movie_info_content">
+						<div className="name">{state.params.name}</div>
+						<div className="poster"><img src={state.params.poster}></img></div>
+						<div className="director">{state.params.director}</div>
+						<div className="actors">
+							{state.params.actors.map(function(item,i){
+								return(<div className="actor" key={i}>{item}</div>)
+							})}
+						</div>
+						<div className="type">{state.params.type}</div>
+						<div className="date">{state.params.date}</div>
+						<div className="length">{state.params.length}</div>
+						<div className="language">{state.params.language}</div>
+						<div className="rate">{state.params.rate}</div>
+						<div className="brief">{state.params.brief}</div>
+					</div>
+				</div>
+			);
+		}
+	});
+
+	d.modal(re);
+
+})
+.fail(function(){
+	//fail
+})
+.always(function() {
+	//always
+});

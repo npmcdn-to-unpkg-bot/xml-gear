@@ -1,0 +1,198 @@
+*{
+	box-sizing: border-box;
+}
+*:not{
+	font-family: 'Helvetica Neue', Helvetica, 'Lucida Grande', Arial, 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif !important;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+
+	background-color: #222;
+}
+
+.movie_info_content{
+	width: auto;
+	height: auto;
+
+	padding: 20px;
+
+	background-color: #222;
+}
+
+.movie_info_content>*:not(.poster):not(.name){
+
+	position: relative;
+	top: 0px;
+	right: 0px;
+
+	display: block;
+
+	width: auto;
+	min-height: 40px;
+
+	line-height: 40px;
+
+	margin-right: 500px;
+	margin-left: 60px;
+	margin-top: 30px;
+
+	font-size: 20px;
+}
+
+.movie_info_content>*:not(.poster):not(.name):before{
+	position: absolute;
+	left: -64px;
+	top: 4px;
+
+	height: 32px;
+	width: 96px;
+
+	line-height: 32px;
+
+	text-align: center;
+
+	border-radius: 16px;
+
+	font-size: 20px;
+
+	background-color: #ddd;
+
+	color: #000;
+}
+
+.name{
+	display: block;
+
+	margin-right: 500px;
+
+	width: auto;
+	height: 64px;
+
+	color: #eee;
+
+	font-size: 32px;
+
+	border-bottom: 1px solid #eee;
+
+	margin-bottom: 8px;
+}
+
+.poster{
+
+	overflow: hidden;
+
+	position: absolute;
+	top: 124px;
+	right: 100px;
+
+	width: 400px;
+	height: 800px;
+
+	color: none;
+}
+
+.poster>img{
+	width: 100%;
+	height: auto;
+}
+
+.director,.type,.date,.length,.language,.rate{
+
+	border-radius: 20px;
+
+	padding-left: 40px;
+}
+
+.director,.type,.date,.length,.language,.rate,.actor{
+
+	background-color: #333;
+
+	color: #ccc;
+}
+
+.director:hover,
+.type:hover,
+.date:hover,
+.length:hover,
+.language:hover,
+.rate:hover,
+.actor:hover{
+	background-color: #555;
+
+	color: #eee;
+}
+
+.director:before{
+
+	content: "导演";
+}
+
+.type:before{
+
+	content: "类型";
+}
+
+.date:before{
+
+	content: "日期";
+}
+
+.length:before{
+
+	content: "时长";
+}
+
+.language:before{
+
+	content: "语种";
+}
+
+.rate:before{
+
+	content: "评分";
+}
+
+.actors:before{
+
+	content: "演员";
+}
+
+.actor{
+
+	display: inline-block;
+
+	height: 40px;
+	width: auto;
+
+	padding-left: 40px;
+	padding-right: 40px;
+
+	line-height: 40px;
+
+	border-radius: 20px;
+
+	margin-right: 20px;
+
+	margin-bottom: 16px;
+}
+
+.brief{
+	padding-top: 50px;
+
+	color: #ccc;
+}
+
+.brief:before{
+
+	content: "简介";
+}
+
+.movie_container>input:empty ~ label>.movie_info{
+	display: none;
+}
+
+.movie_container>input:checked ~ label>.movie_info{
+	display: block;
+}

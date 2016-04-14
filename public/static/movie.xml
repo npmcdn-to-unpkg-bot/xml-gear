@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<movies>
+	<movie>
+		<id>m1</id>
+		<name>肖申克的救赎</name>
+		<poster>img/Shawshank_Redemption.jpg</poster>
+		<director>弗兰克·德拉邦特</director>
+		<actors>
+			<actor><actorName>蒂姆·罗宾斯</actorName></actor>
+			<actor><actorName>摩根·弗里曼</actorName></actor>
+			<actor><actorName>鲍勃·冈顿</actorName></actor>
+		</actors>
+		<type>剧情 / 犯罪</type>
+		<date>1994-09－10</date>
+		<length>142</length>
+		<language>英语</language>
+		<rate>9.6</rate>
+		<brief>20世纪40年代末，小有成就的青年银行家安迪（蒂姆·罗宾斯 Tim Robbins 饰）因涉嫌杀害妻子及她的情人而锒铛入狱。在这座名为肖申克的监狱内，希望似乎虚无缥缈，终身监禁的惩罚无疑注定了安迪接下来灰暗绝望的人生。未过多久，安迪尝试接近囚犯中颇有声望的瑞德（摩根·弗里曼 Morgan Freeman 饰），请求对方帮自己搞来小锤子。以此为契机，二人逐渐熟稔，安迪也仿佛在鱼龙混杂、罪恶横生、黑白混淆的牢狱中找到属于自己的求生之道。他利用自身的专业知识，帮助监狱管理层逃税、洗黑钱，同时凭借与瑞德的交往在犯人中间也渐渐受到礼遇。表面看来，他已如瑞德那样对那堵高墙从憎恨转变为处之泰然，但是对自由的渴望仍促使他朝着心中的希望和目标前进。而关于其罪行的真相，似乎更使这一切朝前推进了一步……</brief>
+	</movie>
+
+	<movie>
+		<id>m2</id>
+		<name>荒蛮故事</name>
+		<poster>img/Relatos_salvajes.jpg</poster>
+		<director>达米安·斯兹弗隆</director>
+		<actors>
+			<actor><actorName>里卡杜·达林</actorName></actor>
+			<actor><actorName>艾丽卡·里瓦斯</actorName></actor>
+			<actor><actorName>丽塔·科尔泰塞</actorName></actor>
+		</actors>
+		<type>剧情 / 喜剧 / 犯罪</type>
+		<date>2014-08-14</date>
+		<length>122</length>
+		<language>西班牙语</language>
+		<rate>8.7</rate>
+		<brief>《荒蛮故事》是一部黑色喜剧，由6个独立的暴力复仇小故事构成。影片是一次对于人类失控行径的颠覆性创作，从怪异的幽默感，独特的画面和大胆的配乐，到对于身处绝境的普通人这一题材的偏爱，都可以清晰地看到南美鬼才导演达米安·斯兹弗隆与阿莫多瓦在创作方面的相似之处。不过，斯兹弗隆仍然通过这部影片发出了自己独特的声音：一场对于一个腐败成风、经济和社会严重不平等的社会的尖锐抨击。</brief>
+	</movie>
+
+	<movie>
+		<id>m3</id>
+		<name>心迷宫</name>
+		<poster>img/The_Coffin_in_the_Mountain.jpg</poster>
+		<director>忻钰坤</director>
+		<actors>
+			<actor><actorName>霍卫民</actorName></actor>
+			<actor><actorName>王笑天</actorName></actor>
+			<actor><actorName>罗芸</actorName></actor>
+		</actors>
+		<type>剧情 / 悬疑 / 犯罪</type>
+		<date>2015-10-16</date>
+		<length>110</length>
+		<language>汉语普通话</language>
+		<rate>8.6</rate>
+		<brief>一个想要挣脱父权控制的青年，在一次争执中失手杀死了同村的痞子，被迫逃亡。他没有想过会用这样的方式逃离安逸的生活，离开之际却惊人的发现宿命早已将他和专制的父亲紧紧连接在一起，走或留他都将失去一切。一个饱受家庭暴力摧残的留守女人，在曾经恋人的怀抱里找到了慰藉。黑暗里绝望的女人与情夫密谋杀夫，可当莽夫的死讯真的传来时，情夫却避而不见矢口否认一切。当女人又一次陷入绝望，另一个男人出现在她的生活里，他给女人带来的不仅仅是关心。一个行为正直严格自律的老村长，精心设计着自己退休后的晚年生活。一生忠诚于信仰的他，却在本性面前轻易地低下了头；一个污点掉落在命运蓝图上，他竭力去擦掉污迹，却剥开了一个黑洞，深陷其中。</brief>
+	</movie>
+
+	<movie>
+		<id>m4</id>
+		<name>西游记之大圣归来</name>
+		<poster>img/Monkey_King：Hero_is_Back.jpg</poster>
+		<director>田晓鹏</director>
+		<actors>
+			<actor><actorName>张磊</actorName></actor>
+			<actor><actorName>林子杰</actorName></actor>
+			<actor><actorName>吴文伦</actorName></actor>
+		</actors>
+		<type>喜剧 / 动作 / 动画 / 奇幻</type>
+		<date>2015-07-10</date>
+		<length>89</length>
+		<language>汉语普通话 / 粤语</language>
+		<rate>8.3</rate>
+		<brief>五百年前，由石猴变化而成的齐天大圣孙悟空（张磊 配音）大闹天宫，最终被如来佛祖镇在了五行山下。此去经年，长安城内突然遭到山妖洗劫，童男童女哭声连连，命悬一线。危机时刻，自幼被行脚僧法明（吴文伦 配音）抚养长大的江流儿（林子杰 配音）救下了一个小女孩，结果反遭山妖追杀。经过一番追逐，江流儿无意中解除了孙悟空的封印，齐天大圣自然好好地将山妖教训了一番。因为封印未解开，悟空不得不护送江流儿和小女孩回长安，一路上又遭遇了猪八戒（刘九容 配音）和白龙马。与此同时，妖王（童自荣 配音）绝不甘心失败，他躲在暗中，等待着给孙悟空一行致命一击的良机……</brief>
+	</movie>
+
+	<movie>
+		<id>m5</id>
+		<name>疯狂的麦克斯4：狂暴之路</name>
+		<poster>img/Mad_Max_Fury_Road_poster.jpg</poster>
+		<director>乔治·米勒</director>
+		<actors>
+			<actor><actorName>汤姆·哈迪</actorName></actor>
+			<actor><actorName>查理兹·塞隆</actorName></actor>
+			<actor><actorName>尼古拉斯·霍尔特</actorName></actor>
+		</actors>
+		<type>动作 / 科幻 / 冒险</type>
+		<date>2015-05-15</date>
+		<length>120</length>
+		<language>英语</language>
+		<rate>8.5</rate>
+		<brief>未来世界，水资源短缺引发了连绵的战争。人们相互厮杀，争夺有限的资源，地球变成了血腥十足的杀戮死战场。面容恐怖的不死乔在戈壁山谷建立了难以撼动的强大武装王国，他手下的战郎驾驶装备尖端武器的战车四下抢掠，杀伐无度，甚至将自己的孩子打造成战争机器。在最近一次行动中，不死乔的得力战将弗瑞奥萨（查理兹·塞隆 Charlize Theron 饰）带着生育者们叛逃，这令不死乔恼羞成怒，发誓要追回生育者。经历了激烈的追逐战和摧毁力极强的沙尘暴，弗瑞奥萨和作为血主的麦克斯（汤姆·哈迪 Tom Hardy 饰）被迫上路，而身后不仅有不死乔的追兵，还有汽油镇、子弹农场的重兵追逐。</brief>
+	</movie>
+
+	<movie>
+		<id>m6</id>
+		<name>西游记之孙悟空三打白骨精</name>
+		<poster>img/The_Monkey_King_2.jpg</poster>
+		<director>郑保瑞</director>
+		<actors>
+			<actor><actorName>郭富城</actorName></actor>
+			<actor><actorName>巩俐</actorName></actor>
+			<actor><actorName>冯绍峰</actorName></actor>
+		</actors>
+		<type>喜剧 / 动作 / 奇幻</type>
+		<date>2016-02-08</date>
+		<length>120</length>
+		<language>汉语普通话</language>
+		<rate>5.9</rate>
+		<brief>影片讲述了师徒四人在西行的路上，白骨精（巩俐 饰）为夺唐僧（冯绍峰 饰）而巧设圈套，被孙悟空（郭富城 饰）识破，屡次受挫。唐僧却误会孙悟空滥杀无辜，将其逐出师门。白骨精趁虚而入，掳走唐僧。悟空闻讯前往营救，彻底击溃白骨精。师徒冰释前嫌，重新上路。</brief>
+	</movie>
+
+	<movie>
+		<id>m7</id>
+		<name>贝利叶一家</name>
+		<poster>img/La_famille_Belier.jpg</poster>
+		<director>艾里克·拉缇戈</director>
+		<actors>
+			<actor><actorName>露安·艾梅哈</actorName></actor>
+			<actor><actorName>嘉莲·维雅</actorName></actor>
+			<actor><actorName>弗朗索瓦·达密安</actorName></actor>
+		</actors>
+		<type>剧情 / 喜剧 / 音乐 / 家庭</type>
+		<date>2014-12-17</date>
+		<length>105</length>
+		<language>法语 / 西班牙语 / 手语</language>
+		<rate>8.3</rate>
+		<brief>农场主贝利叶夫妇和他们的儿子都是听障，日常工作和生活都要依靠女儿宝拉充当手语翻译。宝拉的音乐老师发现了她的天赋，鼓励她去参加法国电台的歌唱比赛。向往着去巴黎继续音乐之路的宝拉将与家人分离。这个人生必经的成年礼，对于贝利叶一家有着更为特殊的意义。</brief>
+	</movie>
+
+	<movie>
+		<id>m8</id>
+		<name>思悼</name>
+		<poster>img/The_Throne.jpg</poster>
+		<director>李濬益</director>
+		<actors>
+			<actor><actorName>宋康昊</actorName></actor>
+			<actor><actorName>刘亚仁</actorName></actor>
+			<actor><actorName>文根英</actorName></actor>
+		</actors>
+		<type>剧情 / 传记 / 历史</type>
+		<date>2015-09-16</date>
+		<length>125</length>
+		<language>韩语</language>
+		<rate>8.3</rate>
+		<brief>18世纪初，朝鲜李氏王朝正值英祖（宋康昊 饰）在位时期。英祖舐犊情深，在长子早逝后，他全部希望寄托在次子李愃（刘亚仁 饰）身上。不仅在他刚出生之际就册封为世子，更为其安排名臣督导功课。然而天不遂人意，世子耽于玩乐，无心学业，英祖一度提拔世子代理国政，可却使这对站在权力顶峰的父子渐行渐远。在一个瓢泼雨夜，世子杖刀闯入王宫。次日，他因意图谋反而遭到英祖的训斥，并被锁入米柜之中。在接下来的八日里，这对形同寇仇的父子各自回忆起过往的种种。也许翻为平民父子更好，王宫内院最残酷的竟发生在最亲近人的中间……</brief>
+	</movie>
+
+	<movie>
+		<id>m9</id>
+		<name>蝙蝠侠大战超人：正义黎明</name>
+		<poster>img/Batman_v_Superman_poster.jpeg</poster>
+		<director>扎克·施奈德</director>
+		<actors>
+			<actor><actorName>本·阿弗莱克</actorName></actor>
+			<actor><actorName>亨利·卡维尔</actorName></actor>
+			<actor><actorName>艾米·亚当斯</actorName></actor>
+		</actors>
+		<type>动作 / 科幻 / 奇幻 / 冒险</type>
+		<date>2016-03-25</date>
+		<length>153</length>
+		<language>英语</language>
+		<rate>6.7</rate>
+		<brief>故事发生在大都会之战18个月后，在那场战斗中许多建筑和市民惨遭波及，许多人把具有超凡力量的氪星人当作凡间之神来膜拜，身处险境的时候会祈求他的救助。但同时超人（亨利·卡维尔 Henry Cavill 饰）也因与佐德之战对城市造成的破坏而遭到逮捕和审讯，一度成为都市传说的蝙 蝠侠（本·阿弗莱克 Ben Affleck 饰）重新出现在人们面前，他似乎正是为了惩罚超人而来。年轻的富豪莱克斯·卢瑟（杰西·艾森伯格 Jesse Eisenberg 饰）又在二者的矛盾中挑拨离间，神秘的戴安娜·普林斯（盖尔·加朵 Gal Gadot 饰）也因为自己的目的而介入其中……影片改编自弗兰克·米勒的经典漫画《蝙蝠侠：黑暗骑士归来》。</brief>
+	</movie>
+
+	<movie>
+		<id>m10</id>
+		<name>疯狂动物城</name>
+		<poster>img/Zootopia.jpg</poster>
+		<director>拜伦·霍华德</director>
+		<actors>
+			<actor><actorName>金妮弗·古德温</actorName></actor>
+			<actor><actorName>杰森·贝特曼</actorName></actor>
+			<actor><actorName>伊德里斯·艾尔巴</actorName></actor>
+		</actors>
+		<type>喜剧 / 动作 / 动画 / 冒险</type>
+		<date>2016-03-04</date>
+		<length>109</length>
+		<language>英语 / 挪威</language>
+		<rate>9.3</rate>
+		<brief>故事发生在一个所有哺乳类动物和谐共存的美好世界中，兔子朱迪（金妮弗·古德温 Ginnifer Goodwin 配音）从小就梦想着能够成为一名惩恶扬善的刑警，凭借着智慧和努力，朱迪成功的从警校中毕业进入了疯狂动物城警察局，殊不知这里是大型肉食类动物的领地，作为第一只，也是唯一的小型食草类动物，朱迪会遇到怎样的故事呢？近日里，城中接连发生动物失踪案件，就在全部警员都致力于调查案件真相之时，朱迪却被局长（伊德瑞斯·艾尔巴 Idris Elba 配音）发配成为了一名无足轻重的交警。某日，正在执勤的兔子遇见了名为尼克（杰森·贝特曼 Jason Bateman 配音）的狐狸，两人不打不相识，之后又误打误撞的接受了寻找失踪的水獭先生的任务，如果不能在两天之内找到水獭先生，朱迪就必须自愿离开警局。朱迪找到了尼克，两人联手揭露了一个隐藏在疯狂动物城之中的惊天秘密。</brief>
+	</movie>
+
+	<movie>
+		<id>m11</id>
+		<name>荒野猎人</name>
+		<poster>img/The_Revenant_2015_Poster.jpg</poster>
+		<director>亚利桑德罗·冈萨雷斯·伊纳里多</director>
+		<actors>
+			<actor><actorName>莱昂纳多·迪卡普里奥</actorName></actor>
+			<actor><actorName>汤姆·哈迪</actorName></actor>
+			<actor><actorName>多姆纳尔·格里森</actorName></actor>
+		</actors>
+		<type>剧情 / 惊悚 / 冒险</type>
+		<date>2016-03-18</date>
+		<length>156</length>
+		<language>英语 / 波尼语 / 法语</language>
+		<rate>7.9</rate>
+		<brief>休·格拉斯（莱昂纳多·迪卡普里奥 Leonardo DiCaprio 饰）是一名皮草猎人，在一次打猎途中被一头熊殴打成重伤后被同行的乘船船长安德鲁·亨利（多姆纳尔·格里森 Domhnall Gleeson 饰）救下，船长雇佣了两个人约翰·菲茨杰拉德（汤姆·哈迪 Tom Hardy 饰）和吉姆·布里杰（威尔·保尔特 Will Poulter 饰）来照顾他。约翰·菲茨杰拉德根本无心照顾格拉斯，一心只想着将格拉斯的财产占为己有，于是残忍的杀害了格拉斯的儿子，并说服吉姆·布里杰将格拉斯抛弃在荒野等死。两人原以为格拉斯就会这样离世，但格拉斯凭借坚强的毅力在野性的蛮荒之地穿行了好几个月，终于回到了安全地带并开始了复仇计划。影片根据迈克尔·庞克同名长篇小说改编。</brief>
+	</movie>
+
+	<movie>
+		<id>m12</id>
+		<name>死侍</name>
+		<poster>img/Deadpool.jpg</poster>
+		<director>蒂姆·米勒</director>
+		<actors>
+			<actor><actorName>瑞恩·雷诺兹</actorName></actor>
+			<actor><actorName>莫蕾娜·巴卡林</actorName></actor>
+			<actor><actorName>艾德·斯克林</actorName></actor>
+		</actors>
+		<type>喜剧 / 动作 / 科幻 / 冒险</type>
+		<date>2016-02-12</date>
+		<length>108</length>
+		<language>英语</language>
+		<rate>7.8</rate>
+		<brief>该片是《X战警》系列电影的外传。讲述了前任特种兵韦德·威尔逊得了不治之症，而自愿加入“X武器计划”获得了快速自愈能力。在饱受虐待折磨后他成功逃脱并对Ajax进行追杀的故事。在原著漫画中，死侍本是个普通人，由于得了不治之症而自愿加入“X武器计划”，他如愿得到了金刚狼自我愈合的能力，但付出的代价是失去了容貌。史崔克将军把他作为失败品投入监狱折磨并继续研究，最终导致他的出逃。死侍是个亦正亦邪的角色，他拥有超越人类的力量、耐力、速度及自我愈合能力，精通各种武器，擅长搏击术，不过他的精神不太稳定。</brief>
+	</movie>
+
+	<movie>
+		<id>m13</id>
+		<name>德军占领的卢浮宫</name>
+		<poster>img/Francofonia.jpg</poster>
+		<director>亚历山大·索科洛夫</director>
+		<actors>
+			<actor><actorName>路易斯朵-德-兰切萨</actorName></actor>
+			<actor><actorName>亚历山大·索科洛夫</actorName></actor>
+			<actor><actorName>本杰明·乌策拉特</actorName></actor>
+		</actors>
+		<type>剧情</type>
+		<date>2015-09-04</date>
+		<length>90</length>
+		<language>俄语 / 法语 / 德语 / 英语</language>
+		<rate>7.5</rate>
+		<brief>俄罗斯电影大师亚历山大·索科洛夫自2011年凭借《浮士德》擒下威尼斯电影节金狮奖，之后就一直在筹备新作《占领下的卢浮宫》。此次索科洛夫将镜头对准巴黎卢浮宫，将时空拽回二战时期，探究纳粹占领下艺术与政治的内核关联。影片已入围第72届威尼斯电影节金狮奖，蛰伏四年，俄罗斯电影大师将再度携新作亮相水城，不知能否再夺大奖，但此次作为该片的世界首映，已足够吸引多方关注。索科洛夫一向热衷于拍摄历史与权力题材电影，其代表作“权利四部曲”中的三部分别涉及：关于希特勒的《莫洛赫》、描写列宁的《遗忘列宁》以及有关日本裕仁天皇的《太阳》。而作为艺术爱好者的索科洛夫对文化收藏宝库的博物馆也是情有独钟，早在其2002的名作《俄罗斯方舟》中就曾取景圣彼得堡冬宫博物馆。此次新作《占领下的卢浮宫》更是直接将镜头对准世界四大博物馆之首的法国卢浮宫，定将上演一场有关艺术、政治与文化的历...</brief>
+	</movie>
+
+	<movie>
+		<id>m14</id>
+		<name>饥饿游戏3：嘲笑鸟(下)</name>
+		<poster>img/The_Hunger_Games_Mockingjay_Part_2.jpg</poster>
+		<director>弗朗西斯·劳伦斯</director>
+		<actors>
+			<actor><actorName>詹妮弗·劳伦斯</actorName></actor>
+			<actor><actorName>乔什·哈切森</actorName></actor>
+			<actor><actorName>利亚姆·海姆斯沃斯</actorName></actor>
+		</actors>
+		<type>动作 / 科幻 / 冒险</type>
+		<date>2015-11-20</date>
+		<length>136</length>
+		<language>英语</language>
+		<rate>6.1</rate>
+		<brief>施惠国爆发了全面战争，凯特尼斯（詹妮弗·劳伦斯 Jennifer Lawrence 饰）将在最后关头对峙斯诺总统（唐纳德·萨瑟兰 Donald Sutherland 饰）。在盖尔（利亚姆·海姆斯沃斯 Liam Hemsworth 饰）、芬尼克（山姆·克拉弗林 Sam Claflin 饰）和皮塔（乔什·哈切森 Josh Hutcherson 饰）等好友的陪伴下，凯特尼斯和十三区的小队一起为了解放施惠国的人民而冒险抗争，并且策划暗杀越来越执迷于杀死她的斯诺总统。凯特尼斯将面对致命陷阱、劲敌和道义上的选择，而这些挑战都不曾出现在饥饿游戏的竞技场中。</brief>
+	</movie>
+
+	<movie>
+		<id>m15</id>
+		<name>丹麦女孩</name>
+		<poster>img/The_Danish_Girl.jpg</poster>
+		<director>汤姆·霍珀</director>
+		<actors>
+			<actor><actorName>埃迪·雷德梅恩</actorName></actor>
+			<actor><actorName>艾丽西亚·维坎德</actorName></actor>
+			<actor><actorName>本·卫肖</actorName></actor>
+		</actors>
+		<type>剧情 / 爱情 / 传记</type>
+		<date>2015-09-05</date>
+		<length>119</length>
+		<language>英语 / 法语 / 德语</language>
+		<rate>8.0</rate>
+		<brief>1926年哥本哈根，风景画家艾纳（埃迪·雷德梅恩 Eddie Redmayne 饰）和擅长人物画的格尔达（艾丽西亚·维坎德 Alicia Vikander 饰）结为夫妇。因为模特失约，格尔达为顺利完成画作说服了艾纳穿上女装救场。这次意外令艾纳多出一个女性人格“莉莉”，而后者亦成为妻子的灵感女神，让格尔达声名鹊起。只是随着沉睡女性人格的被唤醒，艾纳开始厌恶自己作为男性的身体，他渐渐发现莉莉不但是艺术存在，更是真正的自己。格尔达也没有想到只是临时起意的游戏，竟为自己人生投下了一颗震撼弹，她该如何继续爱她的伴侣？她们在各种社会非议和误解中不离不弃，最后格尔达鼓励艾纳彻底变成莉莉......</brief>
+	</movie>
+
+	<movie>
+		<id>m16</id>
+		<name>海街日记</name>
+		<poster>img/Haijie_Diary.jpg</poster>
+		<director>是枝裕和</director>
+		<actors>
+			<actor><actorName>绫濑遥</actorName></actor>
+			<actor><actorName>长泽雅美</actorName></actor>
+			<actor><actorName>夏帆</actorName></actor>
+		</actors>
+		<type>剧情 / 家庭</type>
+		<date>2015-05-14</date>
+		<length>128</length>
+		<language>日语</language>
+		<rate>8.6</rate>
+		<brief>临海古都镰仓，顺山而成的小镇，不起眼的角落里生活着香田家四姐妹。她们的父亲早年和情人离家出走，母亲则干脆将女儿们抛给了外婆照顾。外婆去世后，外孙女们继承了这栋有着悠久历史的大房子。过早担负起家庭重任的大姐香田幸（绫濑遥 饰），尽心尽力照顾着两个妹妹佳乃（长泽雅美 饰）、千佳（夏帆 饰）健康成长。这一天，父亲去世的消息传到姐妹手中。她们结伴而行参加了父亲的葬礼，并且结识了从未谋面的异母妹妹浅野铃（广濑丝丝 饰）。许是血缘中的亲近之感，幸在临行前邀请铃搬来镰仓同住。未过多久，抱着对姐姐们的憧憬，铃迈入了父亲曾经生活过的房子。四季流转，姐妹们的故事悄然上演……本片根据吉田秋生的同名漫画改编。</brief>
+	</movie>
+
+	<movie>
+		<id>m17</id>
+		<name>聚焦</name>
+		<poster>img/Spotlight.jpg</poster>
+		<director>托马斯·麦卡锡</director>
+		<actors>
+			<actor><actorName>马克·鲁弗洛</actorName></actor>
+			<actor><actorName>迈克尔·基顿</actorName></actor>
+			<actor><actorName>瑞秋·麦克亚当斯</actorName></actor>
+		</actors>
+		<type>剧情 / 传记</type>
+		<date>2015-09-03</date>
+		<length>128</length>
+		<language>英语</language>
+		<rate>8.8</rate>
+		<brief>“聚焦”是波士顿环球报的一个专栏，罗比·罗宾森（迈克尔·基顿饰）是"聚焦"栏目的编辑，栏目拥有一个独立的调查小组，组员包括萨夏·菲弗（瑞秋·麦克亚当斯饰），迈克尔（马克·鲁弗洛饰），马特·卡罗尔（布莱恩·达西·詹姆斯饰）。当马蒂·巴伦（列维·施瑞博尔饰）接替了环球报的总编辑一职，他开始指派罗宾森和他的团队，紧跟一桩被雪藏已久的案件，一个天主教牧师性骚扰教区里的孩子。虽然最开始他们以为这只是个小任务，但很快他们就发现，其背后还隐藏一系列事件，涉及了上百名受害者，而教会已经私下赔偿了受害者，并派人掩盖了这些罪行。随着调查的越发深入，他们发现这一阴谋的更多证据，不仅仅是神职人员，就在波士顿以外，甚至全世界，都在上演着这种暴行。罗宾森和他的团队遭遇到了当地官员们的掣肘。教会内的，教会外的势力都在向他们施压，想让他们放弃这个案件。</brief>
+	</movie>
+
+	<movie>
+		<id>m18</id>
+		<name>卡罗尔</name>
+		<poster>img/Carol.jpg</poster>
+		<director>托德·海因斯</director>
+		<actors>
+			<actor><actorName>凯特·布兰切特</actorName></actor>
+			<actor><actorName>鲁妮·玛拉</actorName></actor>
+			<actor><actorName>凯尔·钱德勒</actorName></actor>
+		</actors>
+		<type>剧情 / 爱情 / 同性</type>
+		<date>2015-11-27</date>
+		<length>118</length>
+		<language>英语</language>
+		<rate>8.3</rate>
+		<brief>50年代的美国，年轻女子特芮丝（鲁妮·玛拉 饰）在纽约百货公司担任售货员，但心中向往的却是摄影师工作。某日，一位美丽优雅的金发贵妇卡罗尔（凯特·布兰切特 饰）来到百货公司购买圣诞节礼物，结果和特芮丝一见投缘。两人相识后特芮丝得知原来卡罗尔有一个女儿，而且正和丈夫哈吉（凯尔·钱德勒 饰）办理离婚手续。通过书信来往、约会相处以及公路旅行，特芮丝和卡罗尔发现彼此就是自己的真爱，然而在当时社会这是不被允许的。特芮丝的男友认为她只是一时迷惑，卡罗尔的丈夫则请私家侦探调查取证，希望在离婚诉讼让中她一无所有。考验两位女性的时刻终于到来了：在社会压力下她们能否坚守内心、不计代价的把感情路走到底？</brief>
+	</movie>
+
+	<movie>
+		<id>m19</id>
+		<name>房间</name>
+		<poster>img/Room.jpg</poster>
+		<director>伦尼·阿伯拉罕森</director>
+		<actors>
+			<actor><actorName>布丽·拉尔森</actorName></actor>
+			<actor><actorName>雅各布·特伦布莱</actorName></actor>
+			<actor><actorName>琼·艾伦</actorName></actor>
+		</actors>
+		<type>剧情 / 家庭</type>
+		<date>2015-09-04</date>
+		<length>118</length>
+		<language>英语</language>
+		<rate>8.8</rate>
+		<brief>女孩乔伊（布丽·拉尔森 Brie Larson 饰）被一个叫“老尼克”的男人拐骗，之后被他囚禁在其房子后院的棚屋里长达七年之久。在此期间她遭到强奸，并生下儿子杰克（雅各布·特伦布莱 Jacob Tremblay 饰）。靠着老尼克时不时的物资补给，母子二人艰难度日。尽管如此，母亲还是竭尽所能，为儿子杰克创造了一个安全而开心的成长空间。这个狭小逼仄的房间，成了杰克生活成长的神奇小天地。在杰克度过了他的五岁生日后，母亲决定告诉他真相，在这个小小的房间外面，有着更广阔的世界。他们开始策划逃跑计划，决心要逃出这个囚禁他们的房间……</brief>
+	</movie>
+
+	<movie>
+		<id>m20</id>
+		<name>裁缝</name>
+		<poster>img/The_Dressmaker.jpg</poster>
+		<director>乔瑟琳·穆尔豪斯</director>
+		<actors>
+			<actor><actorName>凯特·温丝莱特</actorName></actor>
+			<actor><actorName>莎拉·斯努克</actorName></actor>
+			<actor><actorName>利亚姆·海姆斯沃斯</actorName></actor>
+		</actors>
+		<type>剧情</type>
+		<date>2015-10-29</date>
+		<length>118</length>
+		<language>英语</language>
+		<rate>7.8</rate>
+		<brief>根据罗莎莉最畅销的小说改编,美女裁缝蒂莉的故事，蒂莉回到她的家乡在纠正过去的错误。时尚的戏剧和喜剧色彩的剧情。</brief>
+	</movie>
+</movies>
