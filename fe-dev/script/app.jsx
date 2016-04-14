@@ -89,6 +89,123 @@ let movie=require("./movie.js");
 
 let modal=require("./modal.jsx");
 
+
+let Queryer=React.createClass({
+	resultDialog: modal.createModalDialog({
+		renderContent: function(props,state){
+			if(!state.params){
+				return (<div/>)
+			}
+			return(
+				<div>
+					<div className="movie_info_content">
+						<div className="name">{state.params.name}</div>
+						<div className="poster"><img src={state.params.poster}></img></div>
+						<div className="director">{state.params.director}</div>
+						<div className="actors">
+							{state.params.actors.map(function(item,i){
+								return(<div className="actor" key={i}>{item}</div>)
+							})}
+						</div>
+						<div className="type">{state.params.type}</div>
+						<div className="date">{state.params.date}</div>
+						<div className="length">{state.params.length}</div>
+						<div className="language">{state.params.language}</div>
+						<div className="rate">{state.params.rate}</div>
+						<div className="brief">{state.params.brief}</div>
+					</div>
+				</div>
+			);
+		}
+	}),
+
+	getInitialState: function(){
+		return({
+			queries: []
+		});
+	},
+
+	getDefaultProps: function(){
+		return({});
+	},
+
+	componentDidMount: function(){
+	},
+
+	createNewQuery: function(){
+		let q=this.state.queries;
+		q.push({
+			key: "",
+			val: ""
+		})
+		this.setState({
+			queries: q
+		})
+	},
+
+	lauchQuery: function(){
+		let q=this.state.queries;
+		let qo={};
+		for(let i=0;i<q.length;i++){
+			if((q[i].key!="")&&(q[i].val!="")){
+				qo[q[i].key]=q[i].val;
+			}
+		}
+
+		console.log(re);
+
+		if(re){
+			this.resultDialog.modal(re)
+		}else{
+			alert("No result.");
+		}
+	},
+
+	render: function(){
+		let that=this;
+		return(
+			<div className="queries">
+				{this.state.queries.map(function(item,i){
+					return(
+						<div key={i}>
+							<input
+								className="query_key"
+								defaultValue={(item.key)?(item.key):("")}
+								onChange={function(event){
+									let q=that.state.queries;
+									q[i].key=event.target.value;
+									that.setState({
+										queries: q
+									})
+								}}
+								placeholder="key"
+							/>
+							<input
+								className="query_value"
+								defaultValue={(item.val)?(item.val):("")}
+								onChange={function(event){
+									let q=that.state.queries;
+									q[i].val=event.target.value;
+									that.setState({
+										queries: q
+									})
+								}}
+								placeholder="value"
+							/>
+						</div>
+					)
+				},this)}
+				<div onClick={this.createNewQuery}>
+					<input className="query_key query_inactive" placeholder="key" disabled/>
+					<input className="query_value query_inactive" placeholder="value" disabled/>
+				</div>
+				<div className="lauchQuery" onClick={this.lauchQuery}>Query</div>
+			</div>
+		)
+	}
+})
+
+
 $.get("/static/movie.xml",function(data){
 })
 .done(function(data){
@@ -140,39 +257,7 @@ $.get("/static/movie.xml",function(data){
 
 	movie.createMultipleMovies(arr);
 
-	let re=(movie.queryOneMovie({
-		id: "m1"
-	}))
-
-	let d=modal.createModalDialog({
-		renderContent: function(props,state){
-			if(!state.params){
-				return (<div/>)
-			}
-			return(
-				<div>
-					<div className="movie_info_content">
-						<div className="name">{state.params.name}</div>
-						<div className="poster"><img src={state.params.poster}></img></div>
-						<div className="director">{state.params.director}</div>
-						<div className="actors">
-							{state.params.actors.map(function(item,i){
-								return(<div className="actor" key={i}>{item}</div>)
-							})}
-						</div>
-						<div className="type">{state.params.type}</div>
-						<div className="date">{state.params.date}</div>
-						<div className="length">{state.params.length}</div>
-						<div className="language">{state.params.language}</div>
-						<div className="rate">{state.params.rate}</div>
-						<div className="brief">{state.params.brief}</div>
-					</div>
-				</div>
-			);
-		}
-	});
-
-	d.modal(re);
+	render((<Queryer/>),document.getElementById("page"));
 
 })
 .fail(function(){

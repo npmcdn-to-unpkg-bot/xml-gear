@@ -1,13 +1,13 @@
 *
-  -webkit-box-sizing: border-box
-  -moz-box-sizing: border-box
-  box-sizing: border-box
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
 
 body
-  font-family: sans-serif
+	font-family: sans-serif
 
-  margin: 0
-  padding: 0
+	margin: 0
+	padding: 0
 
 @import "./modal.sass"
 @import "./movie.scss"
@@ -37,3 +37,72 @@ body
 //  line-height: 1.5em
 
 //  color: #000
+
+.queries
+	padding-top: 60px
+
+	width: 800px
+	height: auto
+
+	margin: auto
+
+	font-size: 0px
+
+.queries>div
+	margin-bottom: 20px
+
+.query_key,
+.query_value
+	display: inline-block
+
+	margin: auto
+	margin-bottom: 20px
+
+	width: 400px
+	height: 40px
+
+	line-height: 40px
+
+	background-color: #222
+
+	border: none
+	border-bottom: 2px solid #eee
+
+	text-align: center
+
+	font-size: 20px
+
+	color: #eee
+
+	opacity: 0.65
+
+	&:focus
+		opacity: 1
+
+		outline: none
+
+.query_inactive
+	opacity: 0.65
+
+	&:focus
+		opacity: 0.65
+
+.lauchQuery
+	width: 400px
+	height: 40px
+
+	line-height: 40px
+
+	background-color: #aaa
+
+	color: #333
+
+	text-align: center
+	font-size: 20px
+
+	cursor: pointer
+
+	margin: auto
+
+	&:hover
+		background-color: #ccc
